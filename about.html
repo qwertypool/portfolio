@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800&family=Sniglet&display=swap" rel="stylesheet">
+    <title> About</title>
     <style>
+       .font_Cinzel{
+        font-family: 'Cinzel', serif;
+        font-size: 35px;
+      }
+      .font_body{
+        font-family: 'Sniglet', cursive;
+        color: black;
+        font-size: 15px;
+      }
+
         .w-20 {
     width: 7rem;
 }
@@ -41,18 +55,17 @@
             </svg>
           </button>
         </div>
-
       </header>
-      <section class="text-gray-500 bg-gray-900 body-font">
+      <section class="text-gray-500 bg-gray-900">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Technologies</h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">The technologies I have worked with in past or I'm currently working on.</p>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white wow animate__animated animate__zoomIn font_Cinzel">Technologies</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base wow animate__animated animate__zoomIn">The technologies I have worked with in past or I'm currently working on.</p>
           </div>
-          <div class="flex flex-wrap -m-2">
+          <div class="flex flex-wrap -m-2 ">
             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="code1.jpg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="images/code1.jpg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">HTML/CSS</h2>
                   <p class="text-gray-600">Frontend Designing</p>
@@ -61,7 +74,7 @@
             </div>
             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="fw.jpg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="images/fw.jpg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">Javascript</h2>
                   <p class="text-gray-600">Frontend Designing</p>
@@ -70,7 +83,7 @@
             </div>
             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="code2.jpg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="images/code2.jpg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">Django Rest Framework</h2>
                   <p class="text-gray-600">Rest Framework</p>
@@ -79,7 +92,7 @@
             </div>
             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="code.jpg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="images/code.jpg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">Django </h2>
                   <p class="text-gray-600">Python Framework</p>
@@ -88,7 +101,7 @@
             </div>
             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="code3.jpg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="images/code3.jpg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">Python</h2>
                   <p class="text-gray-600">Programming Language</p>
@@ -97,7 +110,7 @@
             </div>
             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="program.jpg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="images/program.jpg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">Java</h2>
                   <p class="text-gray-600">Programming Language</p>
@@ -106,7 +119,7 @@
             </div>
             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="ccc.jpg
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="images/ccc.jpg
                 ">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">SQL</h2>
@@ -116,7 +129,7 @@
             </div>
             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="db.jpg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="images/db.jpg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">MongoDB</h2>
                   <p class="text-gray-600">NoSQL Database</p>
@@ -125,10 +138,19 @@
             </div>
             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="db2.jpg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="images/db2.jpg">
                 <div class="flex-grow">
-                  <h2 class="text-white title-font font-medium">SQLite</h2>
+                  <h2 class="text-white title-font font-medium">MySQL</h2>
                   <p class="text-gray-600">Database</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="images/code1.jpg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">ReactJS</h2>
+                  <p class="text-gray-600">Frontend Designing</p>
                 </div>
               </div>
             </div>
@@ -149,107 +171,141 @@
 
 
 
+<section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="text-center mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4 wow animate__animated animate__zoomIn font_Cinzel">IDEs/Tools</h1>
+      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto wow animate__animated animate__zoomIn">IDEs / Tools I've used for my project works codes</p>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+        <h2 class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">IDEs</h2>
+        <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
+          <a class="mb-2">
+            <span class="bg-teal-100 text-teal-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Visual Studio Code
+          </a>
+          <a class="mb-2">
+            <span class="bg-teal-100 text-teal-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Jupyter NoteBook
+          </a>
+          <a class="mb-2">
+            <span class="bg-teal-100 text-teal-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Atom
+          </a>
+          <a class="mb-2">
+            <span class="bg-teal-100 text-teal-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Eclipse
+          </a>
+          <a class="mb-2">
+            <span class="bg-teal-100 text-teal-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Pycharm
+          </a>
+        </nav>
+      </div>
+      <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+        <h2 class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Version Controls & Deployements</h2>
+        <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
+          <a class="mb-2">
+            <span class="bg-teal-100 text-teal-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Github
+          </a>
+          <a class="mb-2">
+            <span class="bg-teal-100 text-teal-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>GitBucket
+          </a>
+          <a class="mb-2">
+            <span class="bg-teal-100 text-teal-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Heroku
+          </a>
+          <a class="mb-2">
+            <span class="bg-teal-100 text-teal-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>PythonAnywhere
+          </a>
+         
+        </nav>
+      </div>
+      <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+        <h2 class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">RestAPI Tools</h2>
+        <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
+          <a class="mb-2">
+            <span class="bg-teal-100 text-teal-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Postman
+          </a>
+          <a class="mb-2">
+            <span class="bg-teal-100 text-teal-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Swagger
+          </a>
+         
+        </nav>
+      </div>
+      <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
+        <h2 class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">Platforms</h2>
+        <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
+          <a class="mb-2">
+            <span class="bg-teal-100 text-teal-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Windows
+          </a>
+          <a class="mb-2">
+            <span class="bg-teal-100 text-teal-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Linux (Ubuntu)
+          </a>
+         
+        </nav>
+      </div>
+    </div>
+    <!-- <button class="flex mx-auto mt-16 text-white bg-teal-500 border-0 py-2 px-8 focus:outline-none hover:bg-teal-600 rounded text-lg">And more...</button> -->
+  </div>
+</section>
 
 
 
 
 
 
-      <section class="text-gray-500 bg-gray-900 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="text-center mb-20">
-            <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">IDEs/TOOLS</h1>
-            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">The IDEs or tools which I have used to code.</p>
-          </div>
-          <div class="flex flex-wrap -m-4">
-            <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
-              <h2 class="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">IDEs</h2>
-              <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
-                <a class="mb-2">
-                  <span class="bg-gray-800 text-teal-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                      <path d="M20 6L9 17l-5-5"></path>
-                    </svg>
-                  </span>VS Code
-                </a>
-                <a class="mb-2">
-                  <span class="bg-gray-800 text-teal-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                      <path d="M20 6L9 17l-5-5"></path>
-                    </svg>
-                  </span>Atom
-                </a>
-                <a class="mb-2">
-                  <span class="bg-gray-800 text-teal-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                      <path d="M20 6L9 17l-5-5"></path>
-                    </svg>
-                  </span>Eclipse
-                </a>
-                <a class="mb-2">
-                  <span class="bg-gray-800 text-teal-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                      <path d="M20 6L9 17l-5-5"></path>
-                    </svg>
-                  </span>Pycharm
-                </a>
-            
-              </nav>
-            </div>
 
-            <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
-              <h2 class="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">Version Controls & Deployment Tools</h2>
-              <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
-                <a class="mb-2">
-                  <span class="bg-gray-800 text-teal-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                      <path d="M20 6L9 17l-5-5"></path>
-                    </svg>
-                  </span>GitHub
-                </a>
-                <a class="mb-2">
-                  <span class="bg-gray-800 text-teal-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                      <path d="M20 6L9 17l-5-5"></path>
-                    </svg>
-                  </span>Heroku
-                </a>
-                <a class="mb-2">
-                    <span class="bg-gray-800 text-teal-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                        <path d="M20 6L9 17l-5-5"></path>
-                      </svg>
-                    </span>PythonAnywhere
-                  </a>
-               
-              </nav>
-            </div>
-            <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
-              <h2 class="font-medium title-font tracking-widest text-white mb-4 text-sm text-center sm:text-left">Rest Tools</h2>
-              <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1">
-                <a class="mb-2">
-                  <span class="bg-gray-800 text-teal-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                      <path d="M20 6L9 17l-5-5"></path>
-                    </svg>
-                  </span>Postman
-                </a>
-                <a class="mb-2">
-                  <span class="bg-gray-800 text-teal-400 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-3 h-3" viewBox="0 0 24 24">
-                      <path d="M20 6L9 17l-5-5"></path>
-                    </svg>
-                  </span>Swagger
-                </a>
-                
-              </nav>
-            </div>
-          </div>
-          <!-- <button class="flex mx-auto mt-16 text-white bg-teal-500 border-0 py-2 px-8 focus:outline-none hover:bg-teal-600 rounded text-lg">Button</button> -->
-        </div>
-      </section><hr>
 
-      <!-- <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">EDUCATION</h1> -->
+
+
 
 
 
@@ -261,8 +317,8 @@
       <section class="text-gray-500 bg-gray-900 body-font">
         <div class="container px-5 py-24 mx-auto">
         <div class="text-center amb-20">
-          <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">Academics</h1>
-          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">The roadmap to my academics</p>
+          <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4 wow animate__animated animate__zoomIn font_Cinzel">Academics</h1>
+          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto wow animate__animated animate__zoomIn">The roadmap to my academics</p>
         </div>
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
          
@@ -382,17 +438,6 @@
                 </svg>
               </a> -->
 
-
-
-
-
-
-
-
-
-
-
-
               <a class="ml-3 text-gray-600" href="https://www.reddit.com/user/nibbi8420">
 
                 <img src="reddit.png" alt="">
@@ -418,5 +463,46 @@
           </div>
         </div>
       </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ANIMATION SCRIPTS -->
+
+
+<script>
+      var wow = new WOW(
+        {
+          boxClass:     'wow',      // animated element css class (default is wow)
+          animateClass: 'animated', // animation css class (default is animated)
+          offset:       0,          // distance to the element when triggering the animation (default is 0)
+          mobile:       true,       // trigger animations on mobile devices (default is true)
+          live:         true,       // act on asynchronously loaded content (default is true)
+          callback:     function(box) {
+            // the callback is fired every time an animation is started
+            // the argument that is passed in is the DOM node being animated
+          },
+          scrollContainer: null,    // optional scroll container selector, otherwise use window,
+          resetAnimation: true,     // reset animation on end (default is true)
+        }
+      );
+      wow.init();
+    </script>
+
+
+
+
+
 </body>
 </html>

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     <title>Explore</title>
     <style>
         .w-20 {
@@ -66,7 +68,7 @@
                       <h1 class="title-font text-xl font-medium text-white mb-3">Tic Tac Toe Game</h1>
                       <p class="leading-relaxed mb-5">Android & Java Training Project, 4th Semester.Developed a game using Android studio,with 2 levels.</p>
                       <a class="inline-flex items-center">
-                        <img alt="blog" src="logo2.jpg" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
+                        <img alt="blog" src="images/logo2.jpg" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
                         <span class="flex-grow flex flex-col pl-3">
                           <span class="title-font font-medium text-white">RCPL,Kolkata</span>
                         </span>
@@ -85,7 +87,7 @@
                       <h1 class="title-font text-xl font-medium text-white mb-3">Bank Management Application</h1>
                       <p class="leading-relaxed mb-5">Developed a console based banking application using java during 5th sem as a part of college project.</p>
                       <a class="inline-flex items-center">
-                        <img alt="blog" src="logo2.jpg" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
+                        <img alt="blog" src="images/logo2.jpg" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
                         <span class="flex-grow flex flex-col pl-3">
                           <span class="title-font font-medium text-white">Proff. Prashanta Mandal</span>
                         </span>
@@ -106,7 +108,7 @@
                         Developed the GUI of the game using PYQT during python training.
                         .</p>
                       <a class="inline-flex items-center">
-                        <img alt="blog" src="logo2.jpg" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
+                        <img alt="blog" src="images/logo2.jpg" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
                         <span class="flex-grow flex flex-col pl-3">
                           <span class="title-font font-medium text-white">Internshala</span>
                         </span>
@@ -132,11 +134,12 @@
           <section class="text-gray-500 body-font bg-gray-900">
             <div class="container flex flex-wrap px-5 py-24 mx-auto items-center">
               <div class="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 md:mb-0 mb-10 pb-10 border-b border-gray-800">
-                <h1 class="sm:text-3xl text-2xl font-medium hover:text-white title-font mb-2 text-teal-500">Others..</h1>
+                <h1 class="sm:text-3xl text-2xl font-medium hover:text-white title-font mb-2 text-teal-500">Achievements & Interests...</h1>
                 <p class="leading-relaxed text-base">• Currently at level 4 of Google Foobar with 7 codes completion.</p><br>
                  <p class="leading-relaxed text-base">• Write technical blogs at Medium </p><br>
+                 <p class="leading-relaxed text-base">• Participate in monthly & weekly leetcode challenges </p><br>
                 <p class="leading-relaxed text-base">• Qualified TCS Codevita 2019 and reached the second level.</p><br>
-                <p class="leading-relaxed text-base">• Volunteered and walked the ramp for WB Khadi Industies Board in Texawalk-2k18 at GCETTS.</p>
+                <p class="leading-relaxed text-base">• Volunteered & walked ramp for the WB Khadi Industies Board Texawalk-2k18.</p>
                 
                   <!-- <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -297,5 +300,32 @@
           </div>
         </div>
       </footer>
+
+
+
+<!-- ANIMATION SCRIPTS -->
+
+
+<script>
+      var wow = new WOW(
+        {
+          boxClass:     'wow',      // animated element css class (default is wow)
+          animateClass: 'animated', // animation css class (default is animated)
+          offset:       0,          // distance to the element when triggering the animation (default is 0)
+          mobile:       true,       // trigger animations on mobile devices (default is true)
+          live:         true,       // act on asynchronously loaded content (default is true)
+          callback:     function(box) {
+            // the callback is fired every time an animation is started
+            // the argument that is passed in is the DOM node being animated
+          },
+          scrollContainer: null,    // optional scroll container selector, otherwise use window,
+          resetAnimation: true,     // reset animation on end (default is true)
+        }
+      );
+      wow.init();
+    </script>
+
+
+
 </body>
 </html>
